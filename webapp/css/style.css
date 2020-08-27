@@ -1,0 +1,66 @@
+.sapMGTHdrTxt>.sapMText {
+    font-weight: bold;
+}
+
+.sapUiForm {
+    display: grid;
+    padding-right: 12px;
+}
+
+
+
+.sapUiRespGrid.sapUiRespGridHSpace1 {
+    /* padding: 0 0.5rem; */
+    border: 1px solid #060606;
+    height: 460px;
+    padding-right: 0px;
+    margin-right: 0px;
+    border-right-width: 1px;
+    width: 270px;
+    padding-left: 55px;
+    padding-right: 30px;
+    margin-left: 30px;
+    background-color: white;
+}
+
+.sapUiFormResGrid>.sapUiFormTitle {
+    border-bottom-width: 0px;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+element.style {
+    order: 0;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    min-height: auto;
+    min-width: auto;
+    width: 550px;
+}
+
+
+sapUiRespGridMedia-Std-Phone.sapUiRespGridHSpace1>.sapUiRespGridSpanS8 {
+   padding-top: 10px;
+    width: 180px;
+    padding-left: 20px;
+}
+
+.sapMImg {
+    border: none;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+   width: 150px;
+    height: 200px;
+    padding-left: 30px;
+    -webkit-touch-callout: none;
+}
+
+
+.sapMHBox {
+    -webkit-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-top: 10px;

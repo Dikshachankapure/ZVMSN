@@ -1,0 +1,49 @@
+<mvc:View xmlns:c="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="poc.zvms.controller.printpass"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form">
+	<App>
+		<pages>
+			<Page>
+				<content>
+					<l:Grid class="sapUiSmallMarginTop" width="auto" position="Center" containerQuery="true" hSpacing="1" defaultSpan="L6 M6 S10">
+						<l:content>
+							<HBox>
+								<Title textAlign="Center" text="VSD Technology pvt lt" id="titletxt">
+									<layoutData>
+										<l:GridData span="L3 M3 S8" linebreakL="false" linebreakM="false" linebreakS="false"/>
+									</layoutData>
+								</Title>
+							</HBox>
+							<Image id="idimage" width="100%">
+								<layoutData>
+									<l:GridData span="L3 M3 S8" linebreakL="false" linebreakM="false" linebreakS="false"/>
+								</layoutData>
+							</Image>
+							<VBox>
+								<f:SimpleForm id="SimpleFormChange354wide" editable="false" layout="ResponsiveGridLayout" labelSpanXL="4" labelSpanL="3" width="800px"
+									labelSpanM="4" labelSpanS="12" adjustLabelSpan="false" emptySpanXL="0" emptySpanL="4" emptySpanM="0" emptySpanS="0" columnsXL="2"
+									columnsL="2" columnsM="2" singleContainerFullSize="false">
+									<f:content>
+										<Label text="Gate pass No"/>
+										<Text id="txtVisiId"/>
+										<Label text="Visitor Name"/>
+										<Text id="txtFullName"/>
+										<Label text="Gate No."/>
+										<Text id="txtGateNo"/>
+										<Label text="Mobile Number"/>
+										<Text id="txtMbNo"/>
+										<Label text="Person To Meet"/>
+										<Text id="txtWhmToMeet"/>
+										<Label text="Date"/>
+										<Text id="txtVisitDate"/>
+										<Label text="Time"/>
+										<Text id="txtInTime"></Text>
+									</f:content>
+								</f:SimpleForm>
+							</VBox>
+						</l:content>
+					</l:Grid>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

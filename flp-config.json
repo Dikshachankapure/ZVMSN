@@ -1,0 +1,35 @@
+{
+    "application": {
+        "id": "",
+        "title": "poc.zvms.zvms",
+        "description": "VMS",
+        "type": "SAP_UI5_Component",
+        "componentUrl": "/",
+        "appUrl": "#zvms-Display",
+        "navigationComponentName": "poc.zvms",
+        "intentSemanticObject": "zvms",
+        "intentAction": "Display",
+        "html5ApplicationName": "zvms",
+        "HCPParentApplicationName": ""
+    },
+    "assignment": {
+        "groups": [
+            "9f763a39-c5c6-445e-8ac9-0b1154df8579-1583557747720"
+        ],
+        "contentPackages": [
+            "87190978-4eec-4e52-982e-6af18ac8e6f8-1583557692411"
+        ],
+        "categories": []
+    },
+    "tile": {
+        "type": "StaticTile",
+        "title": "VMS",
+        "subtitle": "Visitor Management System",
+        "searchKeywords": "VMS,Visitor Management System",
+        "displayIconUrl": "sap-icon://approvals",
+        "displayInfoText": "",
+        "size": "1x1",
+        "serviceURL": "",
+        "refreshInterval": ""
+    }
+}
